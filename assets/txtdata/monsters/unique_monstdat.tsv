@@ -46,7 +46,7 @@ MT_RGOATMC	Bloodgutter	bgbl	6	315	Bat	1	24	34	IMMUNE_FIRE	Leashed	0	0
 MT_BGOATMC	Deathshade Fleshmaul	dsfm	6	276	Rhino	0	12	24	IMMUNE_MAGIC,RESIST_FIRE	None	0	65	
 MT_WYRM	Warmaggot the Mad	general	6	246	Bat	3	15	30	RESIST_LIGHTNING	Leashed	0	0	
 MT_STORM	Glasskull the Jagged	bhka	7	354	Storm	0	18	30	IMMUNE_MAGIC,IMMUNE_FIRE	Leashed	0	0	
-MT_RGOATBW	Blightfire	blf	7	321	Succubus	2	13	21	IMMUNE_FIRE	Leashed	0	0	
+MT_RGOATBW	Blightfire	blf	7	321	Counselor	2	13	21	IMMUNE_FIRE	Leashed	0	0	
 MT_GARGOYLE	Nightwing the Cold	general	7	342	Bat	1	18	26	IMMUNE_MAGIC,RESIST_LIGHTNING	Leashed	0	0	
 MT_GGOATBW	Gorestone	general	7	303	GoatRanged	1	15	28	RESIST_LIGHTNING	Leashed	70	0	
 MT_BMAGMA	Bronzefist Firestone	general	8	360	Magma	0	30	36	IMMUNE_MAGIC,RESIST_FIRE	Leashed	0	0	
@@ -76,7 +76,7 @@ MT_COUNSLR	Blacktongue	general	12	360	Counselor	3	15	30	RESIST_FIRE	Leashed	0	0
 MT_DEATHW	Viletouch	general	12	525	Gargoyle	3	20	40	IMMUNE_LIGHTNING	Leashed	0	0	
 MT_RSNAKE	Viperflame	general	12	570	SkeletonMelee	1	25	35	IMMUNE_FIRE,RESIST_LIGHTNING	Leashed	0	0	
 MT_BSNAKE	Fangskin	bhka	14	681	SkeletonMelee	2	15	50	IMMUNE_MAGIC,RESIST_LIGHTNING	Leashed	0	0	
-MT_SUCCUBUS	Witchfire the Unholy	general	12	444	Succubus	3	10	20	IMMUNE_MAGIC,IMMUNE_FIRE,RESIST_LIGHTNING	Leashed	0	0	
+MT_SUCCUBUS	Witchfire the Unholy	general	12	444	Counselor	3	10	20	IMMUNE_MAGIC,IMMUNE_FIRE,RESIST_LIGHTNING	Leashed	0	0	
 MT_BALROG	Blackskull	bhka	13	750	SkeletonMelee	3	25	40	IMMUNE_MAGIC,RESIST_LIGHTNING	Leashed	0	0	
 MT_UNRAV	Soulslash	general	12	450	SkeletonMelee	0	25	25	IMMUNE_MAGIC	Leashed	0	0	
 MT_VTEXLRD	Windspawn	general	12	711	SkeletonMelee	1	35	40	IMMUNE_MAGIC,IMMUNE_FIRE	Leashed	0	0	
@@ -85,17 +85,17 @@ MT_RTBLACK	Rustweaver	general	13	400	SkeletonMelee	3	1	60	IMMUNE_MAGIC,IMMUNE_FI
 MT_HOLOWONE	Howlingire the Shade	general	13	450	SkeletonMelee	2	40	75	RESIST_FIRE,RESIST_LIGHTNING	Leashed	0	0	
 MT_MAEL	Doomcloud	general	13	612	Storm	1	1	60	RESIST_FIRE,IMMUNE_LIGHTNING	None	0	0	
 MT_PAINMSTR	Bloodmoon Soulfire	general	13	684	SkeletonMelee	1	15	40	IMMUNE_MAGIC,RESIST_FIRE,RESIST_LIGHTNING	Leashed	0	0	
-MT_SNOWWICH	Witchmoon	general	13	310	Succubus	3	30	40	RESIST_LIGHTNING	None	0	0	
+MT_SNOWWICH	Witchmoon	general	13	310	Counselor	3	30	40	RESIST_LIGHTNING	None	0	0	
 MT_VTEXLRD	Gorefeast	general	13	771	SkeletonMelee	3	20	55	RESIST_FIRE	None	0	0	
 MT_RTBLACK	Graywar the Slayer	general	14	672	SkeletonMelee	1	30	50	RESIST_LIGHTNING	None	0	0	
 MT_MAGISTR	Dreadjudge	general	14	540	Counselor	1	30	40	IMMUNE_MAGIC,RESIST_FIRE,RESIST_LIGHTNING	Leashed	0	0	
-MT_HLSPWN	Stareye the Witch	general	14	726	Succubus	2	30	50	IMMUNE_FIRE	None	0	0	
+MT_HLSPWN	Stareye the Witch	general	14	726	Counselor	2	30	50	IMMUNE_FIRE	None	0	0	
 MT_BTBLACK	Steelskull the Hunter	general	14	831	SkeletonMelee	3	40	50	RESIST_LIGHTNING	None	0	0	
 MT_RBLACK	Sir Gorash	general	16	1050	SkeletonMelee	1	20	60		None	0	0	
 MT_CABALIST	The Vizier	general	15	850	Counselor	2	25	40	IMMUNE_FIRE	Leashed	0	0	
 MT_REALWEAV	Zamphir	general	15	891	SkeletonMelee	2	30	50	IMMUNE_MAGIC,RESIST_FIRE,RESIST_LIGHTNING	Leashed	0	0	
-MT_HLSPWN	Bloodlust	general	15	825	Succubus	1	20	55	IMMUNE_MAGIC,IMMUNE_LIGHTNING	None	0	0	
-MT_HLSPWN	Webwidow	general	16	774	Succubus	1	20	50	IMMUNE_MAGIC,IMMUNE_FIRE	None	0	0	
-MT_SOLBRNR	Fleshdancer	general	16	999	Succubus	3	30	50	IMMUNE_MAGIC,RESIST_FIRE	None	0	0	
+MT_HLSPWN	Bloodlust	general	15	825	Counselor	1	20	55	IMMUNE_MAGIC,IMMUNE_LIGHTNING	None	0	0	
+MT_HLSPWN	Webwidow	general	16	774	Counselor	1	20	50	IMMUNE_MAGIC,IMMUNE_FIRE	None	0	0	
+MT_SOLBRNR	Fleshdancer	general	16	999	Counselor	3	30	50	IMMUNE_MAGIC,RESIST_FIRE	None	0	0	
 MT_OBLORD	Grimspike	general	19	534	Sneak	1	25	40	IMMUNE_MAGIC,RESIST_FIRE	Leashed	0	0	
 MT_STORML	Doomlock	general	28	534	Sneak	1	35	55	IMMUNE_MAGIC,RESIST_FIRE,RESIST_LIGHTNING	Leashed	0	0	

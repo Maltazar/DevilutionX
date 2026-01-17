@@ -470,3 +470,4 @@ uwp-project/Assets/ui_art
 /tmp/
 /compile_commands.json
 tmp-mingw-x86_64-w64-mingw32-prep/
+extracted/
