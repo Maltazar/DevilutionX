@@ -3194,6 +3194,8 @@ int FindValidShrine()
 		const int rv = GenerateRnd(gbIsHellfire ? NumberOfShrineTypes : 26);
 		if ((rv == ShrineEnchanted && !IsAnyOf(leveltype, DTYPE_CATHEDRAL, DTYPE_CATACOMBS)) || rv == ShrineThaumaturgic)
 			continue;
+		if (IsAnyOf(rv, ShrineFascinating, ShrineOrnate, ShrineSacred, ShrineMurphys))
+			continue;
 		if (gbIsMultiplayer && shrineavail[rv] == ShrineTypeSingle)
 			continue;
 		if (!gbIsMultiplayer && shrineavail[rv] == ShrineTypeMulti)
