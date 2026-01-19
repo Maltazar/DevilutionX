@@ -1313,8 +1313,9 @@ void AddShrine(Object &shrine)
 
 		const bool isEnchantedShrine = (i == ShrineEnchanted);
 		const bool isCorrectLevelType = IsAnyOf(leveltype, DTYPE_CATHEDRAL, DTYPE_CATACOMBS);
+		const bool isCripplingShrine = IsAnyOf(i, ShrineFascinating, ShrineOrnate, ShrineSacred, ShrineMurphys);
 
-		slist[i] = isShrineAvailable && (!isEnchantedShrine || isCorrectLevelType);
+		slist[i] = isShrineAvailable && (!isEnchantedShrine || isCorrectLevelType) && !isCripplingShrine;
 	}
 
 	int selectedIndex;
